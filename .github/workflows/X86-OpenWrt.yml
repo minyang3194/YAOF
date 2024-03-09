@@ -119,6 +119,7 @@ jobs:
         rm -rf ./artifact/
         mkdir -p ./artifact/
         mv openwrt/bin/targets/x86/64/*combined-efi.img* ./artifact/
+        mv openwrt/bin/targets/x86/64/*combined.img* ./artifact/
         cd ./artifact/
         ls -Ahl
         gzip -d *.gz && exit 0
