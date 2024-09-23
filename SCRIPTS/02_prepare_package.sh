@@ -153,10 +153,10 @@ rm -rf ./feeds/packages/utils/coremark
 cp -rf ../sbw_pkg/coremark ./feeds/packages/utils/coremark
 cp -rf ../immortalwrt_23/package/utils/mhz ./package/utils/mhz
 # Airconnect
-#git clone https://github.com/sbwml/luci-app-airconnect package/new/airconnect
-#sed -i 's,respawn,respawn 3600 5 0,g' package/new/airconnect/airconnect/files/airconnect.init
-#cp -rf ../OpenWrt-Add/airconnect ./package/new/airconnect
-#cp -rf ../OpenWrt-Add/luci-app-airconnect ./package/new/luci-app-airconnect
+git clone https://github.com/sbwml/luci-app-airconnect package/new/airconnect
+sed -i 's,respawn,respawn 3600 5 0,g' package/new/airconnect/airconnect/files/airconnect.init
+cp -rf ../OpenWrt-Add/airconnect ./package/new/airconnect
+cp -rf ../OpenWrt-Add/luci-app-airconnect ./package/new/luci-app-airconnect
 # luci-app-ap-modem
 #cp -rf ../linkease/applications/luci-app-ap-modem ./package/new/luci-app-ap-modem
 # luci-app-irqbalance
