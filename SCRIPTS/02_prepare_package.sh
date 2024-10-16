@@ -76,8 +76,8 @@ popd
 cp -rf ../OpenWrt-Add ./package/new
 rm -rf feeds/packages/net/{xray-core,v2ray-core,v2ray-geodata,sing-box}
 rm -rf feeds/luci/applications/{luci-app-frps,luci-app-frpc}
+rm -rf feeds/packages/net/{frp,microsocks,shadowsocks-libev}
 rm -rf feeds/packages/utils/coremark
-rm -rf feeds/packages/net/frp
 
 ### 获取额外的基础软件包 ###
 # 更换为 ImmortalWrt Uboot 以及 Target
