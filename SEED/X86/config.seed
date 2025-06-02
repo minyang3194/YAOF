@@ -160,6 +160,10 @@ CONFIG_PACKAGE_luci-app-tinyfilemanager=y
 CONFIG_PACKAGE_kmod-shortcut-fe-cm=y
 CONFIG_PACKAGE_kmod-fast-classifier=y
 # CONFIG_PACKAGE_natflow-boot=y
+####
+CONFIG_PACKAGE_luci-app-linkease=y
+CONFIG_PACKAGE_luci-app-store=y
+CONFIG_PACKAGE_luci-app-quickstart=y
 
 
 ### SSRP ###
